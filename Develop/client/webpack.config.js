@@ -18,7 +18,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: ''
+        title: 'Jate'
       }),
 
       new InjectManifest({
@@ -29,8 +29,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: '',
-        short_name: '',
+        name: 'jate-text',
+        short_name: 'jate',
         description: 'Save your text for any time.',
         background_color: '#',
         theme_color: '#',
