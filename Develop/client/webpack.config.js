@@ -32,8 +32,8 @@ module.exports = () => {
         name: 'jate-text',
         short_name: 'jate',
         description: 'Save your text for any time.',
-        background_color: '#',
-        theme_color: '#',
+        background_color: 'grey',
+        theme_color: 'blue',
         start_url: '/',
         publicPath: '/',
         icons: [
